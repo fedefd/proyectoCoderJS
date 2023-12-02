@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+
+    <div class="cuadrado cuadradoRojo" onclick="cuadradoColor()"></div>
+
+
+    <div class="restaYSuma">
+      <div class="minusPlus" onclick="resta()">-</div>
+      <div class="numeros">0</div>
+      <div class="minusPlus" onclick="suma()">+</div>
+    </div>
+
+
+    <div class="calculadora">
+      <p>ingrese 2 números:</p>
+      <div class="calculadoraNumeros">
+        <div><input type="number" class="calculadoraNumerosInput suma1" name="suma1" id="suma1" value=""
+            placeholder="0"></div>
+        <p>+</p>
+        <div><input type="number" class="calculadoraNumerosInput suma2" name="suma2" id="suma2" value=""
+            placeholder="0"></div>
+        <p class="igual" onclick="sumar()">=</p>
+        <div class="resultadoSuma"></div>
+      </div>
+      <br>
+      <div class="calculadoraNumeros">
+        <div><input type="number" class="calculadoraNumerosInput resta1" name="resta1" id="resta1" value=""
+            placeholder="0">
+        </div>
+        <p>-</p>
+        <div><input type="number" class="calculadoraNumerosInput resta2" name="resta2" id="resta2" value=""
+            placeholder="0">
+        </div>
+        <p class="igual" onclick="restar()">=</p>
+        <div class="resultadoResta"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
