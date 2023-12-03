@@ -103,6 +103,22 @@ function restar() {
   }
 }
 
+function reset() {
+  if (cuadradoColores === false) {
+    cuadrado.classList.remove("cuadradoAmarillo");
+    cuadrado.classList.add("cuadradoRojo");
+    cuadradoColores = true;
+  }
+  numeros.innerHTML = "0";
+  suma1.value = "";
+  suma2.value = "";
+  resta1.value = "";
+  resta2.value = "";
+  resultadoSuma.innerHTML = "";
+  resultadoResta.innerHTML = "";
+  console.clear();
+}
+
 
 
 

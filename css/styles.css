@@ -128,3 +128,19 @@ input[type=number] {
 .igual:hover {
   transform: scale(1.1);
 }
+
+.reset {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 150px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.reset:hover {
+  transform: scale(1.1);
+}
