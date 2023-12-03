@@ -10,6 +10,8 @@ const resta2 = document.querySelector(".resta2");
 const resultadoSuma = document.querySelector(".resultadoSuma");
 const resultadoResta = document.querySelector(".resultadoResta");
 
+
+// if //
 function cuadradoColor() {
 
   if (cuadradoColores === true) {
