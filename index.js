@@ -3,6 +3,13 @@ let cuadradoColores = true;
 
 const numeros = document.querySelector(".numeros");
 
+const suma1 = document.querySelector(".suma1");
+const suma2 = document.querySelector(".suma2");
+const resta1 = document.querySelector(".resta1");
+const resta2 = document.querySelector(".resta2");
+const resultadoSuma = document.querySelector(".resultadoSuma");
+const resultadoResta = document.querySelector(".resultadoResta");
+
 function cuadradoColor() {
 
   if (cuadradoColores === true) {
@@ -44,13 +51,6 @@ console.log(numeros.textContent);
 
 
 
-const resultadoSuma = document.querySelector(".resultadoSuma");
-const resultadoResta = document.querySelector(".resultadoResta");
-
-const suma1 = document.querySelector(".suma1");
-const suma2 = document.querySelector(".suma2");
-const resta1 = document.querySelector(".resta1");
-const resta2 = document.querySelector(".resta2");
 // que el usuario mande un dato y nuestro codigo pueda hacer algo //
 function sumar() {
   let resultado = suma1.valueAsNumber + suma2.valueAsNumber;
