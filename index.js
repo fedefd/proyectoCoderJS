@@ -19,6 +19,7 @@ function ifsi() {
   else return;
 }
 ifsi();
+ifsi();
 
 // for //
 function bucle() {
