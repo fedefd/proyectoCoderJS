@@ -145,7 +145,7 @@ function menuPrincipal() {
 
   switch (elegir) {
     case "1":
-      const genero = prompt("Ingresa el género a filtrar:");
+      const genero = prompt("Ingresa el género a filtrar: \n Drama \n Romance \n Aventura \n Fantasia \n Comedia \n Ciencia ficcion");
       console.log(filtrarPorGenero(genero));
       break;
     case "2":
